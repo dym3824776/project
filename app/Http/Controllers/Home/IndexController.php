@@ -10,9 +10,7 @@ class IndexController extends Controller
     //
     public function index()
     {
-        return view('welcome');
+        return view('home/index');
     }
 }
 
-//$ git config --global user.name "Your Name"
-//$ git config --global user.email you@example.com
