@@ -98,53 +98,7 @@
                 <div class="banner">
                     <div class="banner-grids">
                         <!-- //nav -->
-                        <style>
-                            li.cur a.top{
-                                background: #CACACA;
-                                color: #000000 !important;
-                            }
-
-                        </style>
-                        <div class="banner-top">
-                            <span class="menu">MENU</span>
-                            <ul class="nav banner-nav">
-                                <li>06 Dec 2015</li>
-                                <li class="dropdown1"><a href="/">首页</a></li>
-                                <li class="dropdown1 cur"><a class="top" href=".html" >首页首页</a>
-                                    <ul class="dropdown2">
-                                        <li ><a href=""  >首页首页</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown1 "><a class="top" href=".html" >首页首页</a>
-                                    <ul class="dropdown2">
-                                        <li ><a href=""  >首页首页</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown1 "><a class="top" href=".html" >首页首页</a>
-                                    <ul class="dropdown2">
-                                        <li ><a href=""  >首页首页</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown1 "><a class="top" href=".html" >首页首页</a>
-                                    <ul class="dropdown2">
-                                        <li ><a href=""  >首页首页</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown1 "><a class="top" href=".html" >首页首页</a>
-                                    <ul class="dropdown2">
-                                        <li ><a href=""  >首页首页</a></li>
-                                    </ul>
-                                </li>
-
-
-                            </ul>
-                            <script>
-                                $("span.menu").click(function(){
-                                    $(" ul.nav").slideToggle("slow" , function(){
-                                    });
-                                });
-                            </script>
-                        </div>
+                        @include('home.widgets.nav')
                         <!-- //nav -->
                         @yield('content')
                     </div>
