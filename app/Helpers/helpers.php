@@ -34,9 +34,3 @@ if(!function_exists('list_to_tree')) {
     }
 }
 
-if(!function_exists('get_test')){
-    function get_test()
-    {
-        echo '1111111';
-    }
-}

@@ -15,67 +15,10 @@
         <div class="banner-bottom-grids">
             <!-- banner-bottom-left -->
             <div class="col-md-8 banner-bottom-left">
-                <div class="banner-bottom-left-grids">
-                    <div class="col-md-6 banner-left-grid">
-                        <h3>最新发布</h3>
-                        <a href="single.html"><img src="/base/images/b1.jpg" alt="" /></a>
-                        <h4><a href="single.html">Silicon Valley Shows Signs of Dot-Com Frenzy</a></h4>
-                        <p class="comments">August 4 2015, <a href="#">8 Comments</a></p>
-                        <p class="text">Lorem ipsum ex vix illud nonummy, novum tation et his. At vix scripta patrioque scribentur...</p>
-                        <div class="blog-grids">
-                            <div class="blog-grid-left">
-                                <img src="/base/images/b6.jpg" alt="" />
-                            </div>
-                            <div class="blog-grid-right">
-                                <a href="single.html">Fly Fishers Serving as Transports for Noxious Little Invaders</a>
-                                <p class="comments">August 4 2015, <a href="#">8 Comments</a></p>
-                            </div>
-                            <div class="clearfix"> </div>
-                        </div>
-                        <div class="blog-grids">
-                            <div class="blog-grid-left">
-                                <img src="/base/images/b5.jpg" alt="" />
-                            </div>
-                            <div class="blog-grid-right">
-                                <a href="single.html">Fly Fishers Serving as Transports for Noxious Little Invaders</a>
-                                <p class="comments">August 4 2015, <a href="#">8 Comments</a></p>
-                            </div>
-                            <div class="clearfix"> </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 banner-left-grid">
-                        <h3>美文欣赏</h3>
-                        <a href="single.html"><img src="/base/images/b2.jpg" alt="" /></a>
-                        <h4><a href="single.html">Silicon Valley Shows Signs of Dot-Com Frenzy</a></h4>
-                        <p class="comments">August 4 2015, <a href="#">8 Comments</a></p>
-                        <p class="text">Lorem ipsum ex vix illud nonummy, novum tation et his. At vix scripta patrioque scribentur...</p>
-                        <div class="blog-grids">
-                            <div class="blog-grid-left">
-                                <img src="/base/images/b5.jpg" alt="" />
-                            </div>
-                            <div class="blog-grid-right">
-                                <a href="single.html">Fly Fishers Serving as Transports for Noxious Little Invaders</a>
-                                <p class="comments">August 4 2015, <a href="#">8 Comments</a></p>
-                            </div>
-                            <div class="clearfix"> </div>
-                        </div>
-                        <div class="blog-grids">
-                            <div class="blog-grid-left">
-                                <img src="/base/images/b6.jpg" alt="" />
-                            </div>
-                            <div class="blog-grid-right">
-                                <a href="single.html">Fly Fishers Serving as Transports for Noxious Little Invaders</a>
-                                <p class="comments">August 4 2015, <a href="#">8 Comments</a></p>
-                            </div>
-                            <div class="clearfix"> </div>
-                        </div>
-                    </div>
-                    <div class="clearfix"> </div>
-                </div>
-
+                @include('home.banner')
                 <!-- post -->
                 <div class="post">
-                    <h3>热门推荐</h3>
+                    <h3>最新发布</h3>
                     <div class="post-grids">
                         <div class="col-md-4 post-left">
                             <a href="single.html"><img src="/base/images/p1.jpg" alt="" /></a>

@@ -12,12 +12,12 @@
         <li class="dropdown1 cur"><a href="/">首页</a></li>
 
         @foreach($nav as $item)
-            <li class="dropdown1"><a class="top" href=".html" >{{ $item['name'] }}</a>
+            <li class="dropdown1"><a class="top" href="{{ $item['folder'] }}" >{{ $item['name'] }}</a>
                 @if(isset($item['_child']))
                 <ul class="dropdown2">
-                        @foreach($item['_child'] as $value)
-                            <li ><a href=""  >{{ $value['name'] }}</a></li>
-                        @endforeach
+                    @foreach($item['_child'] as $value)
+                        <li class="cur"><a href=" {{ $item['folder'] }} ">{{ $value['name'] }}</a></li>
+                    @endforeach
                 </ul>
                 @endif
             </li>

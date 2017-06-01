@@ -1,6 +1,7 @@
 <?php
 
 /*
+
 |--------------------------------------------------------------------------
 | Web Routes
 |--------------------------------------------------------------------------
@@ -10,6 +11,14 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+
+
+Route::group(['namespace' => 'Home'], function () {
+    Route::get('/', 'IndexController@index');
+    Route::get('{cate}_{id}.html', 'IndexController@detail')->where('id','[0-9]');
+    Route::get('{cate}', 'IndexController@cate');
+
+});
 
 Route::get('user/profile', function () {
     echo 1111;
@@ -25,7 +34,6 @@ Route::get('foo',function(){
 
 
 
-Route::get('/', 'Home\IndexController@index');
 
 Auth::routes();
 
